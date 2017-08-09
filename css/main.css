@@ -211,7 +211,7 @@ body {
 
 
 /*************
-	Middle Content
+Middle Content
 **************/
 
 .middle-content {
@@ -233,4 +233,49 @@ body {
 
 .chef-intro h3 {
 	font-size: 1.4em;
+}
+
+/*************
+Bottom Content
+**************/
+
+.bottom-content {
+	padding: 2em 0;
+	background: #F5E9E2;
+}
+
+.bottom-content h2 {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bolder;
+	margin-bottom: 1.5em;
+}
+
+.bottom-content ul li {
+	width: 31.33333%;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding: 1em;
+}
+
+.bottom-content li img {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+
+.review {
+	margin-left: 73px;
+	padding-top: 2em;
+}
+
+.review h5 {
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.review .job-title {
+	text-align: right;
 }
