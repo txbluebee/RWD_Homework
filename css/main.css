@@ -27,7 +27,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	color: #4C230A;
 }
 ol, ul {
 	list-style: none;
@@ -62,6 +61,7 @@ img {
 body {
   font-family: 微軟正黑體;
   line-height: 1.5;
+	color: #4C230A;
 }
 
 .clearfix:after {
@@ -154,7 +154,7 @@ body {
 **************/
 
 .top-content {
-	padding-top: 2em;
+	padding: 2em 0;
 	background: #F5E9E2;
 }
 
@@ -207,4 +207,30 @@ body {
 
 .top-content li p {
 	padding-left: 1em;
+}
+
+
+/*************
+	Middle Content
+**************/
+
+.middle-content {
+	background: #4C230A;
+	color: #fff;
+}
+
+.middle-content img, .chef-intro{
+	display: block;
+	float: left;
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.chef-intro {
+	padding-top: 5em;
+}
+
+.chef-intro h3 {
+	font-size: 1.4em;
 }
