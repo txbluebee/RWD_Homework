@@ -73,6 +73,7 @@ body {
 .wrap {
   max-width: 960px;
   margin: 0 auto;
+	background: #F5E9E2;
 }
 
 /*************
@@ -278,4 +279,91 @@ Bottom Content
 
 .review .job-title {
 	text-align: right;
+}
+
+/*************
+	Reservation
+**************/
+
+.reservation {
+	background: #EFEFEF;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	padding-right: 2em;
+}
+
+.reservation h2 {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.5em;
+	margin: 1em 0;
+}
+
+.reservation .map,
+.reservation .reserve-form {
+	float: left;
+}
+
+.reservation .map {
+	width: 45%;
+	margin: 0 1% 0 4%;
+}
+
+.map img {
+	display: block;
+}
+
+.reserve-form {
+	width: 45%;
+	margin: 0 2.5%;
+}
+
+.reserve-form .form-style {
+	margin-bottom: 0.5em;
+}
+
+.reserve-form label {
+	display: block;
+	font-weight: bold;
+}
+
+.reserve-form .input-style {
+	width: 100%;
+	height: 2em;
+	margin-top: 6px;
+}
+
+.vegetarian {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 25px;
+}
+
+/* buttons */
+
+.reservation .btn {
+	float: right;
+	padding: 10px 20px;
+	margin-left: 10px;
+	border: none;
+	cursor: pointer
+}
+
+
+.btn-cancel {
+	background: #a1a5ad;
+	color: #fff;
+}
+
+.btn-cancel:hover {
+	background: #575f6d;
+}
+
+.btn-submit {
+	background-color: #f2861a;
+	color: #fff;
+}
+
+.btn-submit:hover {
+	background: #ce6b08;
 }
